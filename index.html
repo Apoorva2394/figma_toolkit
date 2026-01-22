@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma</title>
+</head>
+<body>
+    <main>
+        <nav>Figma - Lite</nav>
+        <div id="tools">
+            <button id="add-rect">Add Rectangle</button>
+            <button id="add-text">Add Text</button>
+            <button id="export-json">Export JSON</button>
+            <button id="export-html">Export HTML</button>
+          </div>
+          
+          <div id="editor">
+            <div id="layers-panel">
+              <h3>Layers</h3>
+              <div id="layers"></div>
+              <button id="layer-up">Move Up</button>
+              <button id="layer-down">Move Down</button>
+            </div>
+          
+            <div id="main-area"></div>
+          
+            <div id="prop-panel">
+              <h2>Properties</h2>
+          
+             <div class="toolkit">
+                <label>Width
+                    <input type="number" id="width" />
+                  </label>
+              
+                  <label>Height
+                    <input type="number" id="height" />
+                  </label>
+              
+                  <label>Background
+                    <input type="color" id="bg" />
+                  </label>
+              
+                  <label id="text-wrapper">Text
+                    <input type="text" id="text" />
+                  </label>
+              
+                  <label>Rotation
+                    <input type="range" min="0" max="360" id="rotate" />
+                  </label>
+             </div>
+            </div>
+          </div>
+    </main>
+    
+    
+    <script src="script.js"></script>
+    </body>
+  
+</html>
