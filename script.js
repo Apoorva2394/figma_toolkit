@@ -9,6 +9,7 @@ const rotateInput = document.getElementById("rotate");
 const textWrapper = document.getElementById("text-wrapper");
 
 let selected = null;
+let elements = [];
 
 let action = null;         
 let resizeDir = null;
